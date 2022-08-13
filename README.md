@@ -14,6 +14,10 @@ This means if we have Requests A and B, Request A must finish (received response
 
 # Insominia Screenshots
 To Display HTTP requests and response I used insomnia.
+A simple Api that response with the requested amount of quotes.
+   
+   ![](2nd API.png)
+
 
 # Notes:
 This project was made with some restrictions in mind
