@@ -16,7 +16,7 @@ This means if we have Requests A and B, Request A must finish (received response
 To Display HTTP requests and response I used insomnia.
 A simple Api that response with the requested amount of quotes.
    
-![Screenshot](2nd API.png)
+![2nd API.png](2nd API.png)
 
 
 # Notes:
