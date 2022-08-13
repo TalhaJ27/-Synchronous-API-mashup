@@ -12,6 +12,9 @@ Queried two API synchronously, requiring clint authentication via Three-legged O
 
 This means if we have Requests A and B, Request A must finish (received response) before Request B begins.
 
+# Insominia Screenshots
+To Display HTTP requests and response I used insomnia.
+
 # Notes:
 This project was made with some restrictions in mind
 -  When a end user visits the home page, your server send them a form to fill out.
@@ -20,4 +23,4 @@ This project was made with some restrictions in mind
 -  Upon receiving the response from the second API request, your server will parse the response and finally send results back to the end user.
 -  Third party libraries are not allowed. In other words, node_modules directory wasn't allowed.
 -  Client ID / Secret / API Key in your authentication must be protected.
--  
+
