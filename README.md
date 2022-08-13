@@ -14,8 +14,21 @@ This means if we have Requests A and B, Request A must finish (received response
 
 # Insominia Screenshots
 To Display HTTP requests and response I used insomnia.
-A simple Api that response with the requested amount of quotes.
-   
+
+
+- Google Docs API (A three-legged OAuth) which redirect the user to authenticate and give permissions
+![alt text](https://github.com/TalhaJ27/-Synchronous-API-mashup/blob/main/DOCS%20Oauth.png?raw=true)
+
+- Upon Authenticathing and giving permissions a code is provided for the client which can be exchanged for a Bearer Token
+![alt text](https://github.com/TalhaJ27/-Synchronous-API-mashup/blob/main/Code_to_Token.png?raw=true)
+
+- Using the newly accquired Bearer Token, we create a new document in user's account
+![alt text](https://github.com/TalhaJ27/-Synchronous-API-mashup/blob/main/Creating_Empty_Doc.png?raw=true)
+
+- Using a POST request and the Document id of the newly created document, we edit it 
+![alt text](https://github.com/TalhaJ27/-Synchronous-API-mashup/blob/main/Editing_new_Doc.png?raw=true)
+
+- A simple Api that response with the requested amount of quotes.  
 ![alt text](https://github.com/TalhaJ27/-Synchronous-API-mashup/blob/main/2nd%20API.png?raw=true)
 
 
